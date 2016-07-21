@@ -96,6 +96,13 @@ g_strctWindows.m_hModulesMenu = uimenu(g_strctWindows.m_hFigure,'Label','Modules
 g_strctWindows.m_hAboutMenu = uimenu(g_strctWindows.m_hFigure,'Label','About');
 uimenu(g_strctWindows.m_hAboutMenu,'Label','About Planner','Callback',@fnAboutPlanner);
 
+
+if ~isempty(which('fnMiscCallback'))
+	%20111121sm: all de-multiplexing and argument massage happens in fnMiscCallback
+	g_strctWindows.m_hMiscMenu = uimenu(g_strctWindows.m_hFigure,'Label','MISC.');
+	uimenu(g_strctWindows.m_hMiscMenu,'Label','Save Screen Shot','Callback',{@fnMiscCallback,'SaveFigureScreenShot'});
+end
+
 strctParams = [];
 %strctParams.AnatVol = MRIread('D:\Data\Doris\MRI\Rocco\Volumes\091310Stereo.mgz');
 %strctParams.FuncVol = MRIread('D:\Data\Doris\MRI\Rocco\Volumes\Bremen_T\sig.bhdr');
