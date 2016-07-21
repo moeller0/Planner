@@ -44,10 +44,16 @@
             
             
             <m_acChamberModels>
+				
+                   <m_strctModel
+                        m_strModelName = "DAG iD22 oD 27"
+                        m_strModelFunc = "fnBuildDAGChamberModel(0, 22, 27, 22)"
+                    > </m_strctModel>
+								
                    <m_strctModel
                         m_strModelName = "Crist 0 Deg"
                         m_strModelFunc = "fnBuildCristChamberModel(0)"
-                    > </m_strctModel>
+                    > </m_strctModel>					
 
                     <m_strctModel
                         m_strModelName = "Rectangular 20 mm"
@@ -55,7 +61,7 @@
                     > </m_strctModel>
                     
                    <m_strctModel
-                        m_strModelName = "Crist 35 Deg"
+                        m_strModelName = "Crist 30 Deg"
                         m_strModelFunc = "fnBuildCristChamberModel(30)"
                     > </m_strctModel>
                
@@ -64,7 +70,7 @@
                         m_strModelFunc = "fnBuildCannulaChamberModel"
                     > </m_strctModel>
                     
-          <m_strctModel
+                   <m_strctModel
                         m_strModelName = "Kopf 1460 Tip"
                         m_strModelFunc = "fnBuildManipulatorTipModel"
                     > </m_strctModel>                    
