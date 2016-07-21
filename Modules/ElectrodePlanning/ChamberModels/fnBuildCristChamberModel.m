@@ -5,8 +5,8 @@ function strctModel = fnBuildCristChamberModel(fChamberAngle)
 %
 % Future versions may automatically do this projection so only the short
 % version will be needed.
-strctModel.m_astrctMeshShort = fnBuildShortModel( fnGetStandardCristChamberParams(fChamberAngle));
-strctModel.m_astrctMeshLong = fnBuildLongModel( fnGetStandardCristChamberParams(fChamberAngle));
+strctModel.m_astrctMeshShort = fnBuildShortModel(fnGetStandardCristChamberParams(fChamberAngle));
+strctModel.m_astrctMeshLong = fnBuildLongModel(fnGetStandardCristChamberParams(fChamberAngle));
 return;
 
 
@@ -25,14 +25,13 @@ if (fChamberAngle == 0)
 else
     % These values are for a "30" deg chamber
     fChamberH2 = 33;
-	% according to trigonomerty we expect the following formulation, that
+	%sm: according to trigonometry we expect the following formulation, that
 	% comes out at 32.25 for 30 degree, so close enough...
 	fChamberH2 = sind(fChamberAngle) * fOuterDiameterMM + fChamberH1;
-	
-	
 end
+
 strctParams.m_strManufacterer = 'Crist';
-strctParams.m_strName = sprintf('Crist %d Deg',fChamberAngle);
+strctParams.m_strName = sprintf('Crist %d Deg', fChamberAngle);
 strctParams.m_fOuterDiameterMM = fOuterDiameterMM;
 strctParams.m_fInnerDiameterMM = fInnerDiameterMM;
 strctParams.m_fChamberH1 = fChamberH1;
