@@ -48,10 +48,14 @@ Linux/Mac users:
 use runme.csh to run planner (assuming matlab is already in the path)
 
 
-Alternative method for all operating systems:
+Alternative method for all operating systems, that does not require to edit environment variables:
+
 1) Open which ever matlab version you want to use.
+
 2) Navigate to the Planner/Code folder and open start_Planner.m
+
 3) Execute start_Planner.m. 
+
 
 NOTE: When matlab asks, select "Change Folder", do NOT select "Add to Path", as start Planner will take care of temporarily adding the current Planner folder to the running malab instance's path variable. start_Planner will remove the Planner directory the path first if it is included already, before adding it again; this helps with issues when using Planner over a windows network share that might not automatically get notofications of file changes.
 
