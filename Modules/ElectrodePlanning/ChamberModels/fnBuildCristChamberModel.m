@@ -25,6 +25,11 @@ if (fChamberAngle == 0)
 else
     % These values are for a "30" deg chamber
     fChamberH2 = 33;
+	% according to trigonomerty we expect the following formulation, that
+	% comes out at 32.25 for 30 degree, so close enough...
+	fChamberH2 = sind(fChamberAngle) * fOuterDiameterMM + fChamberH1;
+	
+	
 end
 strctParams.m_strManufacterer = 'Crist';
 strctParams.m_strName = sprintf('Crist %d Deg',fChamberAngle);
