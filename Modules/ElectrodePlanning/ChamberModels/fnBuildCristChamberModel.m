@@ -21,7 +21,7 @@ fInnerDiameterMM = 19.00;
 
 fChamberH1 = 20.25;
 if (fChamberAngle == 0)
-    fChamberH2  = 20.25;
+    fChamberH2  = fChamberH1;
 else
     % These values are for a "30" deg chamber
     fChamberH2 = 33;
