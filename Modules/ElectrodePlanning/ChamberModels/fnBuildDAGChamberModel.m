@@ -1,4 +1,4 @@
-function strctModel = fnBuildCristChamberModel( fChamberAngle, fInnerDiameterMM, fOuterDiameterMM, fChamberH1 )
+function strctModel = fnBuildDAGChamberModel( fChamberAngle, fInnerDiameterMM, fOuterDiameterMM, fChamberH1 )
 % A chamber must have only two strctures that describe the 3D geometry
 % One is "short" (normal size) and one is "long" to see its projection in
 % the volume. 

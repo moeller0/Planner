@@ -94,7 +94,6 @@
                        m_strHoleDist = "0.8"
                        m_strHoleDiam = "0.43"
 					   m_strGridHeight = "15"
-					   m_strGridHeightOffset = "7"
                        m_strGridInnerDiam = "21.0"
 					   m_strGridOuterDiam = "21.95"
                    > </m_strctSpecialInstance>				   

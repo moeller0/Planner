@@ -19,7 +19,6 @@ fGridInnerDiameterMM = fnGetGridParameter(strctGridParams,'GridInnerDiam');
 fGridThetaRad = fnGetGridParameter(strctGridParams,'Theta') /180*pi;
 fGridPhiDeg = fnGetGridParameter(strctGridParams,'Phi');
 fGridHeightMM = fnGetGridParameter(strctGridParams,'GridHeight');
-fGridHeightOffsetMM = fnGetGridParameter(strctGridParams,'GridHeightOffset');
 bClipInvalid =  fnGetGridParameter(strctGridParams,'ClipInvalid');
 strNumHoles = fnGetGridParameter(strctGridParams,'NumHoles');
 strCenterWhere = fnGetGridParameter(strctGridParams,'CenterWhere');
