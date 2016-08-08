@@ -11,7 +11,8 @@ fGridHoleDistanceMM = fnGetGridParameter(strctGridModel.m_strctGridParams,'HoleD
 fGridInnerDiameterMM = fnGetGridParameter(strctGridModel.m_strctGridParams,'GridInnerDiam');
 fGridThetaRad = fnGetGridParameter(strctGridModel.m_strctGridParams,'Theta') /180*pi;
 fGridPhiDeg = fnGetGridParameter(strctGridModel.m_strctGridParams,'Phi');
-fGridHeightMM = fnGetGridParameter(strctGridModel.m_strctGridParams,'GridHeight');
+ = fnGetGridParameter(strctGridModel.m_strctGridParams,'GridHeight');
+fGridHeightOffsetMM = fnGetGridParameter(strctGridParams,'GridHeightOffset');
 bLongGrid = fnGetGridParameter(strctGridModel.m_strctGridParams,'LongGrid');
 
 if bDrawShort

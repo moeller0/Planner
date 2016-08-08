@@ -5,6 +5,7 @@ try
 set(hAxes,'uicontextmenu',hContextMenu);
 catch
     fprintf('Problem setting context menu?!?!\n');
+	error('smFIX ME');
 end
 afAngle = linspace(0,2*pi,20);
 afCos = cos(afAngle);

@@ -88,7 +88,17 @@
                        m_strDraw2D = "fnDraw2DGridModel_Standard"
                        m_strGUI = "GridHelper"
                    > </m_strctParams>
-                   
+
+                   <m_strctSpecialInstance 
+                       m_strName = "DAG"
+                       m_strHoleDist = "0.8"
+                       m_strHoleDiam = "0.43"
+					   m_strGridHeight = "15"
+					   m_strGridHeightOffset = "7"
+                       m_strGridInnerDiam = "21.0"
+					   m_strGridOuterDiam = "21.95"
+                   > </m_strctSpecialInstance>				   
+				   
                    <m_strctSpecialInstance 
                        m_strName = "Crist"
                        m_strHoleDist = "1.0"
