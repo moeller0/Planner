@@ -77,12 +77,12 @@
 					
                     <m_strctModel
                         m_strModelName = "FMA36 Standard 400µm"
-                        m_strModelFunc = "fnBuildRectangularChamberModel3D(1.8, 4, 10)"
+                        m_strModelFunc = "fnBuildRectangularChamberModel3D(1.8, 4, 5)"
                     > </m_strctModel>
  
                     <m_strctModel
                         m_strModelName = "FMA36 HD 250µm"
-                        m_strModelFunc = "fnBuildRectangularChamberModel3D(1.6, 2.95, 10)"
+                        m_strModelFunc = "fnBuildRectangularChamberModel3D(1.6, 2.95, 5)"
                     > </m_strctModel>					
 					
                    <m_strctModel
