@@ -44,6 +44,11 @@
             
             
             <m_acChamberModels>
+
+				<m_strctModel
+                        m_strModelName = "DAG HP iD25.456 oD 30"
+                        m_strModelFunc = "fnBuildDAGChamberModel(0, 25.455844122715714, 30, 25.455844122715714)"
+                    > </m_strctModel>
 				
                    <m_strctModel
                         m_strModelName = "DAG iD22 oD 27"
@@ -59,7 +64,27 @@
                         m_strModelName = "Rectangular 20 mm"
                         m_strModelFunc = "fnBuildRectangularChamberModel(20)"
                     > </m_strctModel>
-                    
+
+                    <m_strctModel
+                        m_strModelName = "Rectangular 10 mm"
+                        m_strModelFunc = "fnBuildRectangularChamberModel(10)"
+                    > </m_strctModel>
+
+                    <m_strctModel
+                        m_strModelName = "Utah 10x10 96 ch 400µm"
+                        m_strModelFunc = "fnBuildRectangularChamberModel3D(5, 5, 1.5)"
+                    > </m_strctModel>						
+					
+                    <m_strctModel
+                        m_strModelName = "FMA36 Standard 400µm"
+                        m_strModelFunc = "fnBuildRectangularChamberModel3D(1.8, 4, 10)"
+                    > </m_strctModel>
+ 
+                    <m_strctModel
+                        m_strModelName = "FMA36 HD 250µm"
+                        m_strModelFunc = "fnBuildRectangularChamberModel3D(1.6, 2.95, 10)"
+                    > </m_strctModel>					
+					
                    <m_strctModel
                         m_strModelName = "Crist 30 Deg"
                         m_strModelFunc = "fnBuildCristChamberModel(30)"
